@@ -1,0 +1,400 @@
+.xtx_body{
+    padding: 35px 0 85px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.xtx_body .left{
+    margin-left: 50px;
+    left: 30px;
+    width: 250px;
+    background-color: #fff;
+    padding: 40px 0;
+}
+/* 这里改变了轴的水平和垂直方向 */
+.left .user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.left .user img{
+    width: 100px;
+	height: 100px;
+}
+.left .user h2{
+    margin-top: 10px;
+}
+.left .user .text{
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 136px;
+	height: 42px;
+    background-image:linear-gradient(264deg,#e05e2f 0%,
+    #ea745e 95%
+    );
+	background-blend-mode: normal, 
+		normal;
+	border-radius: 26px; 
+    display: flex;
+    align-items: center;
+}
+.user .text img{
+    width: 20px;
+	height: 22px;
+}
+.user .text h4{
+    margin-left: 15px;
+    color: #f9f9f9;
+}
+/* 信息 */
+.left .account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.account h2{
+    margin-top: 20px;
+}
+.account ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 500px;
+        width: 111px;
+}
+.account ul li{
+    font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.account ul li:hover a{
+    color: #5cb991;
+}
+
+.left .trade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.trade h2{
+    margin-top: 20px;
+}
+.trade ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 300px;
+        width: 111px;
+}
+.trade ul li{
+    font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.trade ul li:hover a{
+    color: #5cb991;
+}
+
+.left .collect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #f4f4f4;
+}
+.collect h2{
+    margin-top: 20px;
+}
+.collect ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200px;
+        width: 111px;
+}
+.collect ul li{
+    font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.collect ul li:hover a{
+    color: #5cb991;
+}
+
+.left .help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.help h2{
+    margin-top: 20px;
+}
+.help ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200px;
+        width: 70px;
+}
+.help ul li{
+    font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.help ul li:hover a{
+    color: #5cb991;
+}
+
+/* 右边商品信息 */
+.xtx_body .right{
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    width: 1000px;
+    margin-left: 80px;
+    padding: 0 20px;
+}
+.right .show{
+    height:150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    /* justify-content: space-evenly; */
+}
+.show .west{
+    width: 500px;
+    border-right: 1px solid #f4f4f4;
+}
+.show .west ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.show .west ul li h3{
+    margin-top: 20px;
+    margin-left: -13px;
+}
+.show .north li span{
+    font-family: PingFangSC-Semibold;
+	font-size: 35px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 1px;
+	color: #e05e30;
+}
+.show .north{
+    width: 500px;
+}
+.show .north ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 28px;
+}
+.show .north ul li h3{
+    margin-top: 20px;
+    margin-left: -13px;
+}
+.show .north ul li:nth-child(2) h3{
+    margin-left: 1px;
+}
+.show .north ul li:nth-child(3) h3{
+    margin-left: 10px;
+}
+.show .north ul li img{
+    height: 35px;
+    width:40px;
+}
+/* 订单信息 */
+.right .order{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.order .head{
+    position: relative;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+}
+.order .head i{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+
+.order .head span{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    display: inline-block;
+}
+.order .head a:hover{
+    color: #5cb991;
+}
+.goods {
+    width: 100%;
+    margin-top: 10px;
+}
+.goods .east{
+    width: 920px;
+	height: 150px;
+	background-color: #ffffff;
+	border: solid 2px #f4f4f4;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+
+}
+.east .one{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #f4f4f4;
+    padding: 0 10px;
+}
+.east .one img{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+.introduce p:first-child{
+    margin-bottom: 10px;
+    font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #333333;
+}
+.introduce p:last-child{
+    font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #999999;
+}
+.east .one span{
+    width: 50px;
+    margin-left: 20px;
+    font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #e05e30;
+}
+.introduce:hover a p{
+    color: #5cb991;
+}
+.tow{
+    font-size: 12px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    padding: 0 80px 0 0;
+    border-right: 1px solid #f4f4f4;
+}
+.tow span:nth-child(1),
+.tow span:nth-child(2){
+    margin-bottom: 5px;
+}
+.three{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three .button{
+    width: 80px;
+	height: 40px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5eb69c;
+}
+.look{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.look a:first-child{
+    margin-bottom: 10px;
+}
+.button:hover a{
+    color: #fff;
+}
+/* 第二个订单 */
+.right .order_tow{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    height: 500px;
+}
+.order_tow .head{
+    position: relative;
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 60px;
+}
+.order_tow .head i{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+
+.order_tow .head span{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    display: inline-block;
+}
+.collection ul {
+    display: flex;
+    justify-content: space-around;
+}
+.collection ul li img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.collection li span{
+	font-family: PingFangSC-Medium;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #9a2e1f;
+    margin-top: 5px;
+}
